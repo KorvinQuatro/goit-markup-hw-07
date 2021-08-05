@@ -1,0 +1,13 @@
+@import '../utils/placeholders';
+
+.header {
+  background-color: $white;
+  border-bottom: 1px solid #ececec;
+
+  &-container {
+    @extend %centeredFlex;
+  }
+  &-nav {
+    @extend %centeredFlex;
+  }
+}

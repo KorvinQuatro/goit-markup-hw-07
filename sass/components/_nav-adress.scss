@@ -1,0 +1,27 @@
+@import '../utils/placeholders';
+
+.nav-adress {
+  @extend %centeredFlex;
+  margin-left: auto;
+}
+.nav-adress__adress {
+  color: $primary-text-color;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  margin-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  @extend %centeredFlex;
+  transition: color $animation;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.nav-adress__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
