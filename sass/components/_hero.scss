@@ -1,7 +1,19 @@
+.menu-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  background-color: blueviolet;
+  padding: 32px;
+}
 .hero {
+  display: flex;
+  align-items: center;
   text-align: center;
   @media screen and (min-width: 480px) {
-    height: 400px;
+    height: 480px;
   }
 }
 .overlay {
@@ -18,15 +30,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-  @media screen and (max-width: 767px) {
-    width: 480px;
-  }
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
+  // @media screen and (min-width: 480px) {
+  //   width: 480;
+  // }
+  // @media screen and (max-width: 767px) {
+  //   width: 480px;
+  // }
+  // @media screen and (min-width: 768px) {
+  //   width: 768px;
+  // }
 }
 .hero__title {
   color: $white;
