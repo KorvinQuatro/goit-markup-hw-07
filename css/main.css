@@ -260,7 +260,6 @@ img {
   font-weight: 900;
   font-size: 26px;
   line-height: 1.6;
-  text-align: center;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -490,6 +489,12 @@ img {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .employee-card {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -726,19 +731,16 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (min-width: 480px) {
   .footer__wrapper-logo {
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  .footer__wrapper-logo {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
@@ -923,7 +925,6 @@ img {
 .mailing-form__input {
   outline: none;
   font-family: roboto, sans-serif;
-  width: 358px;
   height: 50px;
   padding-left: 16px;
   margin-bottom: 20px;
@@ -963,7 +964,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 480px) {
   .mailing-form__input {
     width: 450px;
   }
