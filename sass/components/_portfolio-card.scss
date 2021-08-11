@@ -2,15 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
-  margin-left: -30px;
-  margin-top: -30px;
   margin-bottom: 0;
 }
 .portfolio__example {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
-  width: 370px;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+    margin-bottom: 30px;
+  }
 }
 .portfolio__link {
   color: $primary-text-color;

@@ -11,38 +11,42 @@
         <link rel="stylesheet" href="./css/main.min.css">
     </head>
     <body>
-        <header class="header">
-            <div class="container header-container">
-                <nav class="header-nav">
-                    <a href="./index.html" class="logo">
-                        <span class="logo__first">Web</span><span class="logo__second">Studio</span>
-                    </a>
-                    <ul class="site-nav list">
-                        <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
-                        <li class="site-nav__item"><a href="./portfolio.html" class="portfolio-button">Портфолио</a></li>
-                        <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
-                    </ul>
-                </nav>
-                <ul class="nav-adress list">
-                    <li>
-                        <a class="nav-adress__adress list" href="mailto:info@devstudio.com">
-                            <svg width="16px" height="12px" class="nav-adress__icon">
-                                <use href="./img/Icon/icon.svg#envelope"></use>
-                            </svg>
-                            info@devstudio.com
-                        </a>
-                    </li>
-                    <li>
-                        <a class="nav-adress__adress list" href="tel:+380961111111">
-                            <svg width="10px" height="16px" class="nav-adress__icon">
-                                <use href="./img/Icon/icon.svg#smartphone"></use>
-                            </svg>
-                            +38 096 111 11 11
-                        </a>
-                    </li>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a href="./index.html" class="logo">
+                    <span class="logo__first">Web</span><span class="logo__second">Studio</span>
+                </a>
+                <ul class="site-nav list">
+                    <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
+                    <li class="site-nav__item"><a href="./portfolio.html" class="portfolio-button">Портфолио</a></li>
+                    <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
                 </ul>
-            </div>
-        </header>
+                <button class="header-nav__open-mobileMenu">
+                    <svg width="40px" height="40px" class="header-nav__button-icon">
+                        <use href="./img/Icon/icon.svg#mobileMenuButton_40px" </svg>
+                </button>
+            </nav>
+            <ul class="nav-adress list">
+                <li>
+                    <a class="nav-adress__adress list" href="mailto:info@devstudio.com">
+                        <svg width="16px" height="12px" class="nav-adress__icon">
+                            <use href="./img/Icon/icon.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-adress__adress list" href="tel:+380961111111">
+                        <svg width="10px" height="16px" class="nav-adress__icon">
+                            <use href="./img/Icon/icon.svg#smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
         <main>
             <section class="portfolio-main">
                 <div class="container">
@@ -186,48 +190,50 @@
         </main>
         <footer class="footer">
             <div class="container">
-                <div>
-                    <a href="./index.html" class="logo">
-                        <span class="logo__first">Web</span><span class="footer__logo-second">Studio</span>
-                    </a>
-                    <address class="footer-adress">
-                        <p class="footer-adress__gps">г. Киев, пр-т Леси Украинки, 26</p>
-                        <a class="footer-adress__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        <a class="footer-adress__tel" href="tel:+380961111111">+38 096 111 11 11</a>
-                    </address>
-                </div>
-                <div class="sn-adress">
-                    <p class="sn-adress__title">ПРИСОЕДИНЯЙТЕСЬ</p>
-                    <ul class="our-sn list">
-                        <li class="our-sn__links">
-                            <a href="" class="our-sn__link">
-                                <svg width="20px" height="20px" class="our-sn__icon">
-                                    <use href="./img/Icon/icon.svg#instagram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="our-sn__links">
-                            <a href="" class="our-sn__link">
-                                <svg width="20px" height="20px" class="our-sn__icon">
-                                    <use href="./img/Icon/icon.svg#twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="our-sn__links">
-                            <a href="" class="our-sn__link">
-                                <svg width="20px" height="20px" class="our-sn__icon">
-                                    <use href="./img/Icon/icon.svg#facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="our-sn__links">
-                            <a href="" class="our-sn__link">
-                                <svg width="20px" height="20px" class="our-sn__icon">
-                                    <use href="./img/Icon/icon.svg#linkedin"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="footer__wrapper-adress">
+                    <div class="footer__wrapper-logo">
+                        <a href="./index.html" class="footer__logo">
+                            <span class="logo__first">Web</span><span class="footer__logo-second">Studio</span>
+                        </a>
+                        <address class="footer-adress">
+                            <p class="footer-adress__gps">г. Киев, пр-т Леси Украинки, 26</p>
+                            <a class="footer-adress__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            <a class="footer-adress__tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </address>
+                    </div>
+                    <div class="sn-adress">
+                        <p class="sn-adress__title">ПРИСОЕДИНЯЙТЕСЬ</p>
+                        <ul class="our-sn list">
+                            <li class="our-sn__links">
+                                <a href="" class="our-sn__link">
+                                    <svg width="20px" height="20px" class="our-sn__icon">
+                                        <use href="./img/Icon/icon.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="our-sn__links">
+                                <a href="" class="our-sn__link">
+                                    <svg width="20px" height="20px" class="our-sn__icon">
+                                        <use href="./img/Icon/icon.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="our-sn__links">
+                                <a href="" class="our-sn__link">
+                                    <svg width="20px" height="20px" class="our-sn__icon">
+                                        <use href="./img/Icon/icon.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="our-sn__links">
+                                <a href="" class="our-sn__link">
+                                    <svg width="20px" height="20px" class="our-sn__icon">
+                                        <use href="./img/Icon/icon.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="mailing">
                     <p class="mailing__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
